@@ -1,0 +1,21 @@
+{
+  "globalDependencies": {
+    "core-js": "registry:dt/core-js#0.0.0+20160602141332",
+    "jasmine": "registry:dt/jasmine#2.2.0+20160621224255",
+    "node": "registry:dt/node#6.0.0+20160621231320"
+  }
+}
+
+/*
+
+A large number of libraries of the JavaScript extends JavaScript environment with features and syntax which is not natively recognized by the TypeScript compiler. The typings.json file is used to identify TypeScript definition files in your Angular application.
+
+In the above code, there are three typing files as shown below:
+
+core-js: It brings ES2015/ES6 capabilities to our ES5 browsers.
+
+jasmine: It is the typing for Jasmine test framework.
+
+node: It is used for the code that references objects in the nodejs environment.
+
+*/
